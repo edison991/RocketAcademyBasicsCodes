@@ -64,6 +64,13 @@ The <html> element is known as the root element of a HTML page. All other elemen
     <!-- The <div> tag defines a division or a section in an HTML document, and is commonly use as a "container" for nested HTML elements. -->
     <div class="container">
       <!-- The <p> tag defines a paragraph element. -->
+      <p>Welcome to BlackJack! Rules are simpler here.</p>
+      <ul>
+        <li>Aces drawn are either 1 or 11.</li>
+        <li>Player must have a hand value of at least 16 to stand.</li>
+        <li>Dealer will draw cards until the hand value is at least 17</li>
+      </ul>
+
       <p>Input:</p>
       <!-- The self-closing <input /> tag represents a field for a user to enter input. -->
       <input id="input-field" />
@@ -72,7 +79,10 @@ The <html> element is known as the root element of a HTML page. All other elemen
       <!-- The <button> tag represents.. you guessed it! a button. -->
       <button id="submit-button">Submit</button>
       <p>Output:</p>
-      <div class="output-div" id="output-div"></div>
+      <div class="output-div" id="output-div">
+        Gambling is bad, but only if you lose. Hit the submit button to start
+        winning money.
+      </div>
     </div>
     <!-- Everything below this is incorporating JavaScript programming logic into the webpage. -->
     <!-- The script tag encloses JavaScript syntax for the browser to interpret programtically -->
