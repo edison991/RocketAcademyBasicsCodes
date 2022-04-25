@@ -195,6 +195,9 @@ var main = function (input) {
         gameMode = `computer's turn`;
         return `Click "Submit" to decide outcome.`;
       }
+    } else {
+      showCardsDrawn(playerCards, computerCards);
+      return myOutputValue;
     }
   }
   if (gameMode == `computer's turn`) {
